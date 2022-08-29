@@ -1,0 +1,11 @@
+/docker                         export-ignore
+/.*                             export-ignore
+/src/Test                       export-ignore
+/src/**/*Test.php               export-ignore
+/src/TestHandlerResolver.php    export-ignore
+/composer.lock                  export-ignore
+/Dockerfile                     export-ignore
+/Makefile                       export-ignore
+/phpstan.neon.dist              export-ignore
+/phpunit.xml.dist               export-ignore
+/README.md                      export-ignore

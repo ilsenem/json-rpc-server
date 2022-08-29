@@ -1,0 +1,40 @@
+{
+    "name": "json-rpc/server",
+    "description": "JSON-RPC server",
+    "license": "MIT",
+    "type": "library",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Ilya Lesnyak",
+            "email": "me@ilsenem.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.28.3",
+        "friendsofphp/php-cs-fixer": "^3.10",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.8.2",
+        "phpstan/phpstan-phpunit": "^1.1.1",
+        "phpunit/phpunit": "^9.5.23"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "JsonRpc\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "phpstan/extension-installer": true
+        },
+        "platform": {
+            "php": "8.1"
+        },
+        "sort-packages": true
+    }
+}
